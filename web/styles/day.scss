@@ -1,0 +1,53 @@
+.day{
+  margin: 0 20px;
+  text-align: center;
+  &__players{
+    // display: flex;
+    margin: 0 20px;
+  }
+
+  &__player{
+    margin: 0 10px;
+  }
+  &__player-names{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10px;
+  }
+  &__player-scores{
+    display: block;
+    justify-content: space-around;
+  }
+
+  &__round{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__player-scores-inner{
+    margin: 0 10px;
+  }
+
+  &__player-score{
+    display: block;
+  }
+
+  &__line{
+    height: 2px;
+    background-color: black;
+  }
+
+  &__total-score{
+
+  }
+
+  &__submit-button{
+    height: 30px;
+    background-color: pink;
+    cursor: pointer;
+  }
+  input{
+    width: 40px;
+    text-align: center;
+  }
+}
