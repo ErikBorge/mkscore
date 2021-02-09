@@ -141,7 +141,7 @@ const Day2 = ({day, dayText, sendScores, isNewDay}) => {
                 {
                   playerObj.map((player, key) => {
                     return (
-                      <span><b>{dayScores[`${playerObj[key]}`] ? dayScores[`${playerObj[key]}`] : '0'}</b></span>
+                      <span key={key}><b>{dayScores[`${playerObj[key]}`] ? dayScores[`${playerObj[key]}`] : '0'}</b></span>
                     )
                   })
                 }

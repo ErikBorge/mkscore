@@ -1,10 +1,20 @@
 .week{
-
+  width: 80%;
+  margin-bottom: 30px;
   &__number{
+    background-color: pink;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px;
     font-size: 20px;
+    cursor: pointer;
   }
 
   &__days{
     display: flex;
+  }
+
+  &__stats{
+    display: block;
   }
 }

@@ -6,6 +6,11 @@
   justify-content: center;
   align-items: center;
 
+  &__profiles{
+    display: flex;
+
+  }
+
   &__new-week{
     height: 40px;
     background-color: pink;

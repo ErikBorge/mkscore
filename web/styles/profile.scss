@@ -1,0 +1,59 @@
+.profile{
+  margin: 10px 30px;
+  background-color: yellow;
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+
+  &__pic{
+    border-radius: 50%;
+  }
+
+  &__stats{
+    width: 200px;
+
+  }
+
+  &__ranks{
+    display: flex;
+    font-size: 15px;
+  }
+
+  &__tier{
+
+  }
+
+  &__tier-text{
+    font-family: 'Nintendo';
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    transform: translateY(-43px);
+  }
+
+  &__main-stat{
+    // font-size: 20px;
+    // font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    h1, h3{
+      margin: 10px 0;
+      line-height: 1em;
+    }
+  }
+
+  &__single-stat{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+
+    &-text{
+
+    }
+    &-value{
+
+    }
+  }
+
+}

@@ -1,7 +1,24 @@
+@font-face {
+  font-family: "Nintendo";
+  src: url("/fonts/nintendo_regular.otf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Nintendo";
+  src: url("/fonts/nintendo_bold.otf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+
 @import './index';
 
 @import './day';
 @import './week';
+@import './profile';
 
 
 
